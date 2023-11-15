@@ -38,7 +38,6 @@ function Layout({ children, cb = () => {} }) {
 
   const handleSearchSubmit = (e) => {
     e.preventDefault();
-    console.log(searchValue);
     cb("search", searchValue);
   };
 
